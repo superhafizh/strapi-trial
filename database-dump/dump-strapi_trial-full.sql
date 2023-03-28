@@ -1596,7 +1596,7 @@ COPY public.admin_roles (id, name, code, description, created_at, updated_at, cr
 --
 
 COPY public.admin_users (id, firstname, lastname, username, email, password, reset_password_token, registration_token, is_active, blocked, prefered_language, created_at, updated_at, created_by_id, updated_by_id) FROM stdin;
-1	Hafizh Ilman	Aziz	\N	superhafizh@gmail.com	$2a$10$E1YN2dVKKkoGgf7l8TOlFO1euiWTOqup/ZVxD9.tP9lgGO56HtE2K	\N	\N	t	f	\N	2023-03-27 21:56:15.407	2023-03-27 21:56:15.407	\N	\N
+1	Super	Admin	\N	hafizh.ilman@gmail.com	$2a$10$ecpJDkZGqf/xUXpFxG7R6OgVqhXRsKxo5J.VEbN5gApAP/AQXvBZ.	\N	\N	t	f	\N	2023-03-27 21:56:15.407	2023-03-27 21:56:15.407	\N	\N
 \.
 
 
